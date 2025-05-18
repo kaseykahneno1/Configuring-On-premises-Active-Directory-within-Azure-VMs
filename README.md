@@ -3,7 +3,7 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+In this tutorial, you'll learn how to implement an on-premises Active Directory environment within Azure VMs.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -34,7 +34,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://github.com/user-attachments/assets/81577a79-dcac-484d-8cc9-f1a199cf35ae" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-First, we will need to log into Azure and create a Resource Group named AD-Lab. 
+The first step is to access Azure and create a Resource Group titled AD-Lab. 
 </p>
 <br />
 
@@ -42,7 +42,7 @@ First, we will need to log into Azure and create a Resource Group named AD-Lab.
 <img src="https://github.com/user-attachments/assets/530a1e5d-8494-44ba-85e4-b73867d9c68a" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next, we will need to create a virtual network and name it AD-lab-network. Assign it to the resource group AD-lab and put it in the same region you chose for your resource group in step one. 
+ Then, you'll need to create a virtual network named AD-lab-network, link it to the AD-lab resource group, and choose the same region as in step one.
 </p>
 <br />
 
@@ -50,7 +50,7 @@ Next, we will need to create a virtual network and name it AD-lab-network. Assig
 <img src="https://github.com/user-attachments/assets/892993ca-2997-4e8a-9120-d61dca40a20b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now that we have our virtual network set up, we can create our Domain Controller Virtual Machine on a Windows Server 2022 and name it DC-1. You will assign this to the AD-Lab resource group and on the AD-lab-network. 
+With the virtual network now configured, we can proceed to create our Domain Controller Virtual Machine using Windows Server 2022 and name it DC-1. Assign it to the AD-Lab resource group and place it on the AD-lab-network.
   
 - Username: labuser
 - Password: Cyberlab123!
@@ -61,7 +61,7 @@ Now that we have our virtual network set up, we can create our Domain Controller
 <img src="https://github.com/user-attachments/assets/6c072edf-3ae3-4f46-9b5c-048614f666d9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After VM is created, set the Domain Controller’s NIC Private IP address to be static
+Once the virtual machine is created, set the Domain Controller's NIC private IP address to static.
 </p>
 <br />
 
