@@ -26,7 +26,7 @@ In this tutorial, you'll learn how to implement an on-premises Active Directory 
 - Create a Domain Admin user within the domain
 - Join Client-1 to your domain (mydomain.com)
 - Set up Remote Desktop for non-administrative users on Client-1
-- Create a bunch of additional users and attempt to log into client-1 with one of the users
+- Create a bunch of additional users and attempt to log into client-1 with one of the users.
 
 <h2>Set up a Domain Controller in Azure</h2>
 
