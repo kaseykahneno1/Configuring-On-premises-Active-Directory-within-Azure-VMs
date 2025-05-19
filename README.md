@@ -224,7 +224,7 @@ Create a new OU named “_CLIENTS” and drag Client-1 into there
 <img src="https://github.com/user-attachments/assets/8ea931d4-af9b-48b0-8450-f6f7c978b37c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Log into Client-1 as mydomain.com\jane_admin
+Log into Client-1 as mydomain.com\jane_admin.
 </p>
 <br />
 
@@ -232,7 +232,7 @@ Log into Client-1 as mydomain.com\jane_admin
 <img src="https://github.com/user-attachments/assets/f68418d1-878c-4015-a008-77f40b9f8a26" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open system properties
+Open system properties.
 </p>
 <br />
 
@@ -240,7 +240,7 @@ Open system properties
 <img src="https://github.com/user-attachments/assets/e247b46b-83a0-4a0e-9740-dd1d1e3cc558" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Click “Remote Desktop”
+Click “Remote Desktop”.
 </p>
 <br />
 
@@ -248,7 +248,7 @@ Click “Remote Desktop”
 <img src="https://github.com/user-attachments/assets/f6dd0c29-78bd-4775-b93a-52293c90faef" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Allow “domain users” access to remote desktop, You can now log into Client-1 as a normal, non-administrative user.
+Enable Remote Desktop access for the “Domain Users” group. You’re now able to log in to Client-1 using a regular user account.
 </p>
 <br />
 
@@ -258,7 +258,7 @@ Allow “domain users” access to remote desktop, You can now log into Client-1
 <img src="https://github.com/user-attachments/assets/533b4d68-81a3-4dcf-8c71-400a5c1853b1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Log in to DC-1 as jane_admin and open PowerShell_ise as an administrator
+Log in to DC-1 as jane_admin and open PowerShell_ise as an administrator.
 </p>
 <br />
 
@@ -266,7 +266,7 @@ Log in to DC-1 as jane_admin and open PowerShell_ise as an administrator
 <img src="https://github.com/user-attachments/assets/dda6c354-a575-4aef-95d8-62e047f89c24" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create a new File and paste the contents of this <a href="https://github.com/QuentinKunkle/Generate-Names-Create-Users">script</a></h1> into it
+Create a new File and paste the contents of this <a href="https://github.com/kaseykahneno1/generate-and-create-users">script</a></h1> into it
 </p>
 <br />
 
