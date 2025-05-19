@@ -131,7 +131,7 @@ We will also want to test ipconfig/all to ensure the DNS setting is showing DC-1
 <img src="https://github.com/user-attachments/assets/31ee478a-2030-46d9-8726-4e86bb326f9f" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Login to DC-1 and install Active Directory Domain Services
+Login to DC-1 and install Active Directory Domain Services.
 </p>
 <br />
 
@@ -290,12 +290,12 @@ When finished, open ADUC and observe the accounts in the appropriate OU　(_EMPL
 <img src="https://github.com/user-attachments/assets/c242505c-41be-4a84-bfb2-b7894805bdc5" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+Try logging into Client-1 using one of the accounts, and make sure to note the password provided in the script.
 </p>
 <br />
 
 <h2>Conclusion</h2>
 <p>
-You now have a complete training system set up for Active Directory. Take some time and practice enabling and disabling accounts, resetting passwords, <a href="https://github.com/QuentinKunkle/CGP">Configure Group Policy</a></h1>, and more. 
+You now have a complete training system set up for Active Directory. Take some time and practice enabling and disabling accounts, resetting passwords, <a href="https://github.com/kaseykahneno1/configure-group-policy">Configure Group Policy</a></h1>, and more. 
 </p>
 
